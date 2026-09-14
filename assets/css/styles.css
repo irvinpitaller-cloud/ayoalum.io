@@ -1,0 +1,19 @@
+  --carbon:#0B0F14;
+  --plata:#B7B9BD;
+  --dorado:#D4AF6B;
+  --blanco:#F5F5F7;
+  --font:'Montserrat',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--font);
+  background:var(--carbon);
+  color:var(--blanco);
+  line-height:1.6;
+  overflow-x:hidden;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit}
+.container{width:min(1240px,92%);margin:0 auto}
