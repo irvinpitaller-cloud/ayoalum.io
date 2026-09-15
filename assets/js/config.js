@@ -171,4 +171,4 @@ document.addEventListener("DOMContentLoaded",()=>{
           </div>
         </div>
       </article>
-    `).join("all");
+    `).join("todos");
